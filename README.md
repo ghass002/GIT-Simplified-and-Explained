@@ -73,4 +73,34 @@ git merge <branch-name>
 git branch -d <branch-name>
 ```
 
+## 6- Working with remote repository:
+- Navigate to your project directory using **cd**
+- Create a remote repository for this project using this command:
+```bash
+git remote add origin <URL> 
+```
+The URL can be a github link to your project repository
+- To upload the project files in our local repository to the remote, use:
+```bash
+git push -u origin master 
+```
+- To fetch a project from remote repository to your local. use:
+```bash
+git clone <cloning-URL>
+```
+-To check if your local repository up to date with the remote, use the following:
+```bash
+git fetch origin
+git status
+```
+- To merge the changes from remote into your local repository:
+```bash
+git merge origin/master 
+```
+- Another way to recieve the changes into your local repository is the combination of both **fetch** and **merge**:
+```bash
+git pull
+```
+## 6- Merge conflicts:
+This happens when two persons made changes to the same part(lines) of the code.
 
