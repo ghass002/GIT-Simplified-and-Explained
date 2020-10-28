@@ -102,5 +102,5 @@ git merge origin/master
 git pull
 ```
 ## 6- Merge conflicts:
-This happens when two persons made changes to the same part(lines) of the code.
+This happens when two persons made changes to the same part(lines) of the code and both try to push changes to the remote repository. 
 
