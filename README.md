@@ -3,7 +3,9 @@
 
 ## Steps to use GIT when working as a team
 ### 1- Configuring Your Name & Email:
-```git config --global user.name "Your Name"
-git config --global user.email "your@email.com"```
+```
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
 
 
