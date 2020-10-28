@@ -42,4 +42,20 @@ git checkout <commit-hash>
 ```bash
 git checkout master
 ```
+### 5. Branches
+A **branch** could be interpreted as an individual timeline of our project commits.
+- You can create a new branch using the following command:
+```bash
+git branch <new-branch-name>
+```
+-To switch to a different branch, you use command:
+```bash
+git checkout <branch-name>
+```
+- To create a new branch and change to it at the same time, you can use the **-b** flag:
+```bash
+git checkout -b <new-branch-name>
+```
+
+
 
