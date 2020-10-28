@@ -13,4 +13,33 @@ git config --global user.email "your@email.com"
 git init
 ```
 
+### 3. Staging and committing code
+Committing is the process in which the changes are 'officially' added to the Git repository.
+- While located inside the project folder in our terminal, we can type the following command to check the status of our repository:
+```bash
+git status
+```
+ It shows us which files have been changed.
+ 
+ - add all the files inside the project folder to the staging area:
+ ```bash
+git add .
+```
+- commit the files from the staging area:
+```bash
+git commit -m "Commit message"
+```
+- To see all the commits that were made for our project, you can use the following command:
+```bash
+git log
+```
+The logs will show details for each commit, like the author name, the generated hash for the commit, date and time of the commit, and the commit message that we provided.
+- To go back to a previous state of your project code that you committed, you can use the following command:
+```bash
+git checkout <commit-hash>
+```
+- To go back to the latest commit (the newest version of our project code), you can type this command:
+```bash
+git checkout master
+```
 
